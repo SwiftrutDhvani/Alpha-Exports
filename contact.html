@@ -14,37 +14,61 @@
   <body>
     <!-- header -->
     <section>
-      <div class="container mx-auto">
-        <div class="header flex justify-between p-5">
-          <div class="leftContent flex items-center">
+      <div class="container mx-auto px-4">
+        <div class="header flex flex-wrap items-center justify-between p-5">
+          <!-- Left Content -->
+          <div
+            class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
+          >
             <img
               src="assets/images/logo.png"
-              alt=""
-              width="190px"
-              height="63px"
+              alt="Logo"
+              class="w-[150px] sm:w-[190px] h-auto"
             />
-            <div class="">
-              <a href="./" class="me-8">Home</a>
-              <a href="/about.html" class="me-8">About Us</a>
-              <a href="/product.html" class="me-8">Product</a>
-              <a href="/blog.html" class="me-8">Blog</a>
-              <a href="/contact.html" class="me-8">Contact Us</a>
-            </div>
+            <!-- Hamburger Menu for Mobile -->
+            <button
+              id="menuToggle"
+              class="block sm:hidden text-2xl focus:outline-none"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
           </div>
-          <div class="rightContent flex items-center">
-            <span class="me-6">+918128128181</span>
-            <div class="">
+
+          <!-- Navigation Links -->
+          <div
+            id="mobileMenu"
+            class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
+          >
+            <nav
+              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+            >
+              <a href="./" class="hover:text-[#CA3D26]">Home</a>
+              <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
+              <a href="/product.html" class="hover:text-[#CA3D26]">Product</a>
+              <a href="/blog.html" class="hover:text-[#CA3D26]">Blog</a>
+              <a href="/contact.html" class="hover:text-[#CA3D26] font-semibold"
+                >Contact Us</a
+              >
+            </nav>
+          </div>
+
+          <!-- Right Content -->
+          <div
+            class="rightContent flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
+          >
+            <span class="text-sm sm:text-base sm:me-6">+918128128181</span>
+            <div class="flex space-x-2">
               <i
-                class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full"
+                class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
               ></i>
               <i
-                class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full"
+                class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
               ></i>
               <i
-                class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full"
+                class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
               ></i>
               <i
-                class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full"
+                class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
               ></i>
             </div>
           </div>
@@ -82,8 +106,8 @@
             nunc putamus parum claram anteposuerit litterarum formas human.
           </p>
         </div>
-        <div class="flex">
-          <div class="w-3/5">
+        <div class="lg:flex">
+          <div class="w-full lg:w-3/5">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div class="md:col-span-2 p-6">
                 <form action="#" method="POST">
@@ -150,7 +174,7 @@
               </div>
           </div>
         </div>
-        <div class="w-2/5 bg-[#FDF4E4] py-12 px-14 rounded-3xl">
+        <div class="w-full lg:w-2/5 bg-[#FDF4E4] py-12 px-14 rounded-3xl">
             <div class="">
               <i
                 class="fa-solid fa-phone bg-red-500 rounded-full p-2 text-white me-3"
@@ -185,17 +209,17 @@
     <!--  -->
     <section class="my-20 bg-red-500 py-10">
       <div class="container mx-auto">
-        <div class="flex justify-evenly">
+        <div class="md:flex justify-evenly">
           <div class="text-white text-center">
             <i class="fa-solid fa-globe text-4xl"></i>
-            <h2 class="text-xl font-semibold mt-4">Global Exporter</h2>
+            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">Global Exporter</h2>
           </div>
-          <div class="border border-dotted"></div>
+          <div class="border border-dotted md:mb-0 mb-7"></div>
           <div class="text-white text-center">
             <i class="fa-solid fa-users-line text-4xl"></i>
-            <h2 class="text-xl font-semibold mt-4">Customer Relation</h2>
+            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">Customer Relation</h2>
           </div>
-          <div class="border border-dotted"></div>
+          <div class="border border-dotted md:mb-0 mb-7"></div>
           <div class="text-white text-center">
             <i class="fa-solid fa-truck text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4">Fast Delivery</h2>
@@ -207,8 +231,8 @@
     <!-- Footer -->
     <footer class="my-12">
       <div class="container mx-auto">
-        <div class="flex">
-          <div class="w-1/2 text-start">
+        <div class="md:flex">
+          <div class="w-full md:w-1/2 text-start">
             <img src="assets/images/logo.png" alt="" width="410px" />
             <p class="my-6 w-3/4 text-gray-500">
               "ALPHA MALE EXPORTS” is one of the leading Gujarat india Based
@@ -218,7 +242,7 @@
               are bulk exporters of agriculture product.
             </p>
           </div>
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <div class="flex mt-7">
               <div class="">
                 <i
@@ -250,8 +274,8 @@
           </div>
         </div>
         <div class="border border-gray-300"></div>
-        <div class="flex">
-          <div class="w-1/2">
+        <div class="md:flex">
+          <div class="md:w-1/2">
             <h2 class="mt-9 font-bold text-lg">Our Link</h2>
             <div class="mt-6 font-semibold text-gray-600">
               <a href="./" class="me-8">Home</a>
@@ -261,7 +285,7 @@
               <a href="/contact.html" class="me-8">Contact Us</a>
             </div>
           </div>
-          <div class="w-1/2">
+          <div class="md:w-1/2">
             <h2 class="mt-9 font-bold text-lg">Product</h2>
             <div class="mt-6 font-semibold text-gray-600">
               <a href="" class="me-8">Basmati Rice</a>
@@ -296,4 +320,13 @@
       </div>
     </section>
   </body>
+   <!-- Mobile Menu Script -->
+   <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
 </html>
