@@ -40,7 +40,7 @@
             class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
           >
             <nav
-              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
             >
               <a href="./" class="hover:text-[#CA3D26] font-semibold">Home</a>
               <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
@@ -129,7 +129,7 @@
               exports at glance
             </h1>
           </div>
-          <p>
+          <p class="text-lg py-2">
             Alpha Male exports is a well-known exporter and supplier of a
             variety of agro-food products. A wide range of agriculture items are
             offered by our Gujarat. India-based company, including spices,
@@ -469,31 +469,61 @@
     <!-- Our Clients -->
     <section class="my-24">
       <div class="container mx-auto">
-        <h1 class="text-4xl font-bold text-center">
+        <h1 class="text-4xl font-bold text-center my-8">
           <span class="text-red-500 italic">What</span> Our Clients Say!
         </h1>
-        <div class="bg-[#FDF4E4]">
-          <div class="md:flex">
-            <div class="md:w-2/5">
-              <img
-                src="assets/images/clientImg.png"
-                alt=""
-                width="md:430px"
-                class="clientImg"
-              />
+        <div class="flex justify-between">
+          <div class="relative hidden xl:block">
+            <img
+              src="assets/images/clientImg1.jpg"
+              alt=""
+              class="w-[223px] h-[505px] rounded-3xl object-cover"
+            />
+            <div
+              class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+            ></div>
+            <i
+              class="fa-solid fa-arrow-left bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
+            ></i>
+          </div>
+
+          <div class="bg-[#FDF4E4] rounded-3xl">
+            <div class="lg:flex w-[990px] h-[506px] p-8">
+              <div class="lg:w-[307px]">
+                <img
+                  src="assets/images/clientImg.png"
+                  alt=""
+                  width=""
+                  class="clientImg rounded-2xl object-cover"
+                />
+              </div>
+              <div class="w-[518px] h-[302px] ms-8">
+                <i class="fa-solid fa-quote-left text-7xl my-5"></i>
+                <p class="text-lg">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged.
+                </p>
+                <p class="text-xl font-bold mt-5">Cody Fisher</p>
+              </div>
             </div>
-            <div class="w-3/5 ms-8">
-              <i class="fa-solid fa-quote-left text-7xl my-5"></i>
-              <p class="w-2/3">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-              </p>
-              <p class="text-xl font-bold mt-5">Cody Fisher</p>
-            </div>
+          </div>
+          <div class="relative hidden xl:block">
+            <img
+              src="assets/images/clientImg2.jpg"
+              alt=""
+              class="w-[223px] h-[505px] rounded-3xl object-cover"
+            />
+            <div
+              class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+            ></div>
+            <i
+              class="fa-solid fa-arrow-right bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
+            ></i>
           </div>
         </div>
       </div>

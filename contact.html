@@ -14,8 +14,8 @@
   <body>
     <!-- header -->
     <section>
-      <div class="container mx-auto px-4">
-        <div class="header flex flex-wrap items-center justify-between p-5">
+      <div class="container mx-auto px-4 sticky">
+        <div class="header flex flex-wrap items-center justify-between p-5 bg-white">
           <!-- Left Content -->
           <div
             class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
@@ -40,7 +40,7 @@
             class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
           >
             <nav
-              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
             >
               <a href="./" class="hover:text-[#CA3D26]">Home</a>
               <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
@@ -77,10 +77,11 @@
     </section>
 
     <!-- contact us -->
-    <section class="contactUsImg">
-      <div class="container mx-auto">
-        <div class="py-28">
-          <h1 class="text-yellow-500 text-4xl italic my-9">Contact Us</h1>
+    <section class="contactUsImg relative">
+      <div class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"></div>
+      <div class="container mx-auto relative z-10">
+        <div class="py-40">
+          <h1 class="text-yellow-500 text-4xl italic mt-12 mb-7">Contact Us</h1>
           <span class="text-red-500 text-2xl bg-white p-4"
             ><span class="text-2xl text-black">Home</span>
             <span class="text-black text-2xl font-bold"> > </span> Contact

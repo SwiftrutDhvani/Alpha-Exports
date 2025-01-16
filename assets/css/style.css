@@ -62,10 +62,10 @@ body {
   height: 340px;
 }
 .contactUsImg {
-  background-image: url(../images/contactUsImg.png);
+  background-image: url(../images/Rectangle\ 41.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 .blogDetailImg {
   background-image: url(../images/blogDetailImg.png);
