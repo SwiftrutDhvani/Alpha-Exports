@@ -82,3 +82,14 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.chooseBgImg{
+  background-image: url(../images/bgImg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* .strongBgImg{
+  background-image: url(../images/bgImg2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
