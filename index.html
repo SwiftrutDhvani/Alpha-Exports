@@ -91,7 +91,7 @@
             <img
               src="assets/images/image 2.png"
               alt=""
-              class="absolute -top-2 left-64"
+              class="absolute left-52 -top-2 md:left-64"
               width="70px"
             />
             <h2 class="text-5xl text-white font-bold mb-6">
@@ -125,7 +125,7 @@
       </div>
     </section>
 
-    <!-- Testimonial -->
+    `
     <section class="my-24 px-3 lg:px-0">
       <div class="container mx-auto">
         <div class="text-center px-20 py-10 bg-[#FDF4E4] rounded-3xl relative">
@@ -353,7 +353,7 @@
 
           <!-- Features Section -->
           <div
-            class="flex flex-col md:flex-row justify-evenly items-center mt-10 space-y-6 md:space-y-0 md:space-x-4"
+            class="flex flex-wrap   justify-evenly items-center mt-10  md:space-y-0 md:space-x-4"
           >
             <!-- Card 1 -->
             <div class="text-center relative flex justify-center items-center">
@@ -378,7 +378,7 @@
             ></div>
 
             <!-- Card 2 -->
-            <div class="text-center relative flex justify-center items-center">
+            <div class="text-center relative flex justify-center items-center my-5 md:my-0">
               <p
                 class="my-5 md:my-0 absolute -top-8 -right-8 md:-top-16 md:-right-10 transform -translate-x-1/2 text-4xl md:text-7xl text-gray-300 font-bold"
               >
@@ -439,7 +439,7 @@
     <!-- We Export -->
     <section class="my-24 px-3 lg:px-0">
       <div class="container mx-auto">
-        <div class="lg:flex">
+        <div class="flex flex-wrap">
           <div class="w-full lg:w-1/2 my-12">
             <h1 class="text-2xl md:text-4xl font-bold">
               <span class="text-red-500 italic">We export</span> all kinds of
@@ -451,34 +451,34 @@
               Feel free to contact us for the bulk pricing and shipping.
             </p>
           </div>
-          <div class="w-full md:w-1/2">
-            <div class="md:flex">
-              <div class="relative rounded-3xl overflow-hidden shrink-0">
-                <img
-                  src="assets/images/exportImg1.jpeg"
-                  alt=""
-                  width="330px"
-                  class="exportImg1"
-                />
-                <div class="absolute bg-[#00000070] bottom-0 left-0 right-0">
-                  <p class="text-white font-bold text-xl text-center py-4">
-                    Red Chilli
-                  </p>
+          <div class="w-full lg:w-1/2">
+            <div class="flex flex-wrap">
+              <div class="lg:w-1/2 w-full md:px-[12px] py-[10px] md:py-0">
+                <div class="relative rounded-3xl overflow-hidden">
+                  <img
+                    src="assets/images/exportImg1.jpeg"
+                    alt=""
+                    class="exportImg1 w-full"
+                  />
+                  <div class="absolute bg-[#00000070] bottom-0 left-0 right-0">
+                    <p class="text-white font-bold text-xl text-center py-4">
+                      Red Chilli
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div
-                class="relative rounded-3xl overflow-hidden mt-3 md:mt-0 md:ms-5 shrink-0"
-              >
-                <img
-                  src="assets/images/exportImg2.jpeg"
-                  alt=""
-                  width="330px"
-                  class="exportImg1"
-                />
-                <div class="absolute bg-[#00000070] bottom-0 left-0 right-0">
-                  <p class="text-white font-bold text-xl text-center py-4">
-                    Maize
-                  </p>
+              <div class="lg:w-1/2 w-full md:px-[12px]">
+                <div class="relative rounded-3xl overflow-hidden">
+                  <img
+                    src="assets/images/exportImg2.jpeg"
+                    alt=""
+                    class="exportImg1 w-full"
+                  />
+                  <div class="absolute bg-[#00000070] bottom-0 left-0 right-0">
+                    <p class="text-white font-bold text-xl text-center py-4">
+                      Maize
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -490,232 +490,214 @@
     <!-- Our Clients -->
     <section class="my-24 px-3 lg:px-0">
       <div class="container mx-auto">
-        <h1 class="text-2xl md:text-4xl font-bold text-center my-8">
-          <span class="text-red-500 italic">What</span> Our Clients Say!
-        </h1>
-        <div class="flex justify-between">
-          <div class="relative hidden xl:block">
-            <img
-              src="assets/images/clientImg1.jpg"
-              alt=""
-              class="w-[223px] h-[505px] rounded-3xl object-cover"
-            />
-            <div
-              class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-            ></div>
-            <i
-              class="fa-solid fa-arrow-left bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-            ></i>
-          </div>
-
-          <div class="bg-[#FDF4E4] rounded-3xl relative">
-            <div class="lg:flex w-[990px] h-[506px] p-8">
-              <div class="">
-                <img
-                  src="assets/images/clientImg.png"
-                  alt=""
-                  width=""
-                  class="md:h-[430px] md:w-[307px] rounded-2xl object-cover"
-                />
-              </div>
-              <div class="w-[518px] h-[302px] ms-8">
-                <i class="fa-solid fa-quote-left text-7xl my-5"></i>
-                <p class="text-lg">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
-                </p>
-                <p class="text-xl font-bold mt-5">Cody Fisher</p>
-              </div>
-            </div>
-            <img
-              src="assets/images/svgClient.png"
-              alt=""
-              class="absolute right-20 top-12"
-            />
-          </div>
-          <div class="relative hidden xl:block">
-            <img
-              src="assets/images/clientImg2.jpg"
-              alt=""
-              class="w-[223px] h-[505px] rounded-3xl object-cover"
-            />
-            <div
-              class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-            ></div>
-            <i
-              class="fa-solid fa-arrow-right bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-            ></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <!-- Slide 1 -->
-          <div class="swiper-slide">
-            <div
-              class="bg-[#FDF4E4] rounded-3xl relative flex items-center p-8"
-            >
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg1.jpg"
-                  alt="Client 1"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-left bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
-              </div>
-              <div class="bg-[#FDF4E4] rounded-3xl relative">
-                <div class="lg:flex w-[990px] h-[506px] p-8">
-                  <div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- SLIDER 1 -->
+            <div class="swiper-slide">
+              <div class="flex justify-between">
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
                     <img
-                      src="assets/images/clientImg.png"
+                      src="assets/images/clientImg1.jpg"
                       alt=""
-                      class="md:h-[430px] md:w-[307px] rounded-2xl object-cover"
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
                     />
-                  </div>
-                  <div class="w-[518px] h-[302px] ms-8">
-                    <i class="fa-solid fa-quote-left text-7xl my-5"></i>
-                    <p class="text-lg">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five centuries,
-                      but also the leap into electronic typesetting, remaining
-                      essentially unchanged.
-                    </p>
-                    <p class="text-xl font-bold mt-5">Cody Fisher</p>
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class="swiper-button-prev bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
                   </div>
                 </div>
-                <img
-                  src="assets/images/svgClient.png"
-                  alt=""
-                  class="absolute right-20 top-12"
-                />
+                <div class="md:w-3/4 w-full md:px-8">
+                  <div class="bg-[#FDF4E4] rounded-3xl h-full relative">
+                    <div class="flex p-8 flex-wrap h-full">
+                      <div class="md:w-1/3 w-full px-[12px]">
+                        <img
+                          src="assets/images/clientImg.png"
+                          alt=""
+                          class="w-auto h-full rounded-2xl object-cover"
+                        />
+                      </div>
+                      <div class="md:w-2/3 w-full px-[12px]">
+                        <i class="fa-solid fa-quote-left text-5xl md:text-7xl my-5"></i>
+                        <p class="md:text-lg sliderPara">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five centuries, but also the leap
+                          into electronic typesetting, remaining essentially
+                          unchanged.
+                        </p>
+                        <p class="text-xl font-bold mt-5">Cody Fisher</p>
+                      </div>
+                    </div>
+                    <img
+                      src="assets/images/svgClient.png"
+                      alt=""
+                      class="absolute xl:right-20 xl:top-12 hidden md:block"
+                    />
+                  </div>
+                </div>
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
+                    <img
+                      src="assets/images/clientImg2.jpg"
+                      alt=""
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
+                    />
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class=" swiper-button-next bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
+                  </div>
+                </div>
               </div>
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg2.jpg"
-                  alt="Client 2"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-right bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
+            </div>
+            <!-- SLIDER 2 -->
+            <div class="swiper-slide">
+              <div class="flex justify-between">
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
+                    <img
+                      src="assets/images/clientImg1.jpg"
+                      alt=""
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
+                    />
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class="swiper-button-prev bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
+                  </div>
+                </div>
+                <div class="md:w-3/4 w-full md:px-8">
+                  <div class="bg-[#FDF4E4] rounded-3xl h-full relative">
+                    <div class="flex p-8 flex-wrap h-full">
+                      <div class="md:w-1/3 w-full px-[12px]">
+                        <img
+                          src="assets/images/clientImg.png"
+                          alt=""
+                          class="w-auto h-full rounded-2xl object-cover"
+                        />
+                      </div>
+                      <div class="md:w-2/3 w-full px-[12px]">
+                        <i class="fa-solid fa-quote-left text-5xl md:text-7xl my-5"></i>
+                        <p class="md:text-lg sliderPara">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five centuries, but also the leap
+                          into electronic typesetting, remaining essentially
+                          unchanged.
+                        </p>
+                        <p class="text-xl font-bold mt-5">Cody Fisher</p>
+                      </div>
+                    </div>
+                    <img
+                      src="assets/images/svgClient.png"
+                      alt=""
+                      class="absolute xl:right-20 xl:top-12 hidden md:block"
+                    />
+                  </div>
+                </div>
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
+                    <img
+                      src="assets/images/clientImg2.jpg"
+                      alt=""
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
+                    />
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class=" swiper-button-next bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SLIDER 3 -->
+            <div class="swiper-slide">
+              <div class="flex justify-between">
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
+                    <img
+                      src="assets/images/clientImg1.jpg"
+                      alt=""
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
+                    />
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class="swiper-button-prev bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
+                  </div>
+                </div>
+                <div class="md:w-3/4 w-full md:px-8">
+                  <div class="bg-[#FDF4E4] rounded-3xl h-full relative">
+                    <div class="flex p-8 flex-wrap h-full">
+                      <div class="md:w-1/3 w-full px-[12px]">
+                        <img
+                          src="assets/images/clientImg.png"
+                          alt=""
+                          class="w-auto h-full rounded-2xl object-cover"
+                        />
+                      </div>
+                      <div class="md:w-2/3 w-full px-[12px]">
+                        <i class="fa-solid fa-quote-left text-5xl md:text-7xl my-5"></i>
+                        <p class="md:text-lg sliderPara">
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has
+                          survived not only five centuries, but also the leap
+                          into electronic typesetting, remaining essentially
+                          unchanged.
+                        </p>
+                        <p class="text-xl font-bold mt-5">Cody Fisher</p>
+                      </div>
+                    </div>
+                    <img
+                      src="assets/images/svgClient.png"
+                      alt=""
+                      class="absolute xl:right-20 xl:top-12 hidden md:block"
+                    />
+                  </div>
+                </div>
+                <div class="w-1/6 hidden xl:block">
+                  <div class="relative">
+                    <img
+                      src="assets/images/clientImg2.jpg"
+                      alt=""
+                      class="w-[235px] h-[505px] rounded-3xl object-cover"
+                    />
+                    <div
+                      class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
+                    ></div>
+                    <div
+                      class=" swiper-button-next bg-white rounded-full text-[#CA3D26] absolute top-[50%] left-[40%]"
+                    ></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- Slide 2 -->
-          <div class="swiper-slide">
-            <div
-              class="bg-[#FDF4E4] rounded-3xl relative flex items-center p-8"
-            >
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg1.jpg"
-                  alt="Client 1"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-left bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
-              </div>
-              <div class="flex flex-col items-start mx-8">
-                <i class="fa-solid fa-quote-left text-7xl mb-4"></i>
-                <p class="text-lg">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
-                </p>
-                <p class="text-xl font-bold mt-5">Cody Fisher</p>
-              </div>
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg2.jpg"
-                  alt="Client 2"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-right bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 3 -->
-          <div class="swiper-slide">
-            <div
-              class="bg-[#FDF4E4] rounded-3xl relative flex items-center p-8"
-            >
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg1.jpg"
-                  alt="Client 1"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-left bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
-              </div>
-              <div class="flex flex-col items-start mx-8">
-                <i class="fa-solid fa-quote-left text-7xl mb-4"></i>
-                <p class="text-lg">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
-                </p>
-                <p class="text-xl font-bold mt-5">Cody Fisher</p>
-              </div>
-              <div class="relative">
-                <img
-                  src="assets/images/clientImg2.jpg"
-                  alt="Client 2"
-                  class="w-[223px] h-[505px] rounded-3xl object-cover"
-                />
-                <div
-                  class="absolute inset-0 bg-red-500 opacity-50 rounded-3xl pointer-events-none"
-                ></div>
-                <i
-                  class="fa-solid fa-arrow-right bg-white rounded-full p-3 text-[#CA3D26] absolute top-[45%] left-[40%]"
-                ></i>
-              </div>
-            </div>
-          </div>
+          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-button-next hidden md:block"></div> -->
+          <!-- <div class="swiper-button-prev hidden md:block"></div> -->
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
       </div>
     </section>
 
@@ -774,24 +756,27 @@
     </section>
 
     <!--  -->
-    <section class="my-20 bg-red-500 py-10 px-3 lg:px-0">
+    <section class="my-20 bg-red-500 py-10 px-3 lg:px-0 bgImg relative">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
+      ></div>
       <div class="container mx-auto">
         <div class="md:flex justify-evenly">
-          <div class="text-white text-center">
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-globe text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
               Global Exporter
             </h2>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7"></div>
-          <div class="text-white text-center">
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-users-line text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
               Customer Relation
             </h2>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7"></div>
-          <div class="text-white text-center">
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-truck text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4">Fast Delivery</h2>
           </div>
@@ -896,6 +881,7 @@
       </div>
     </section>
   </body>
+
   <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

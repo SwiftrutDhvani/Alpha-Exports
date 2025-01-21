@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <section>
+      <div class="container mx-auto px-4 sticky">
+        <div class="header flex flex-wrap items-center justify-between p-5">
+          <!-- Left Content -->
+          <div
+            class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
+          >
+            <img
+              src="assets/images/logo.png"
+              alt="Logo"
+              class="w-[150px] sm:w-[190px] h-auto"
+            />
+            <!-- Hamburger Menu for Mobile -->
+            <button
+              id="menuToggle"
+              class="block sm:hidden text-2xl focus:outline-none"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+
+          <!-- Navigation Links -->
+          <div
+            id="mobileMenu"
+            class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
+          >
+            <nav
+              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
+            >
+              <a href="./" class="hover:text-[#CA3D26]">Home</a>
+              <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
+              <a href="/product.html" class="hover:text-[#CA3D26]">Product</a>
+              <a href="/blog.html" class="hover:text-[#CA3D26]">Blog</a>
+              <a href="/contact.html" class="hover:text-[#CA3D26]"
+                >Contact Us</a
+              >
+            </nav>
+          </div>
+
+          <!-- Right Content -->
+          <div
+            class="rightContent flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
+          >
+            <span class="text-sm sm:text-base sm:me-6">+918128128181</span>
+            <div class="flex space-x-2">
+              <i
+                class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+              ></i>
+              <i
+                class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+              ></i>
+              <i
+                class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+              ></i>
+              <i
+                class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog details -->
+    <section class="blogDetailImg relative px-3 lg:px-0">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
+      ></div>
+      <div class="container mx-auto relative z-10">
+        <div class="py-28">
+          <h1 class="text-yellow-500 text-4xl italic my-9">Blog</h1>
+          <span class="text-red-500 text-2xl bg-white p-4">
+            <span class="text-2xl text-black">Blog</span>
+            <span class="text-black text-2xl font-bold"> > </span> Blog Details
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section -->
+    <section class="my-12 px-3 lg:px-0">
+      <div class="container mx-auto">
+        <div class="">
+          <h2 class="text-3xl md:text-5xl font-bold">
+            <span class="text-red-500 text-2xl md:text-4xl font-normal italic"
+              >Ginger -</span
+            >
+            Benefits & Details
+          </h2>
+          <p class="text-gray-600 my-7">
+            Have you ever had an upset stomach? What was your go-to remedy
+            before consulting a doctor? Was it ginger tea? That would likely be
+            a big yes! Ginger is one of the most trusted home remedies for
+            various body ailments. It's nature's answer to several health
+            concerns and a kitchen staple loved by all.
+          </p>
+          <div class="flex">
+            <div class="flex items-center text-center">
+              <i
+                class="fa-solid fa-calendar-days bg-red-500 rounded-full p-3 text-white me-3"
+              ></i>
+              <p class="font-semibold me-8">22 Sep 2020</p>
+            </div>
+            <div class="flex items-center text-center">
+              <i
+                class="fa-solid fa-user bg-red-500 rounded-full px-3 py-3 text-white me-3"
+              ></i>
+              <p class="font-semibold">By Admin</p>
+            </div>
+          </div>
+          <div class="border-b border-dashed border-gray-800 my-7"></div>
+        </div>
+        <img
+          src="assets/images/gingerImg.jpeg"
+          alt="Ginger Image"
+          class="rounded-l-full starAniseImg2 md:float-right md:hidden block"
+        />
+        <div class="md:flex">
+          <div class="md:w-1/2">
+            <ul class="py-10">
+              <li class="font-semibold md:text-lg my-3">
+                Ginger derives its name from its sharp and distinctive flavor.
+              </li>
+              <li class="font-semibold md:text-lg my-3">
+                It's sourced from the root of an ancient medicinal plant.
+              </li>
+              <li class="font-semibold md:text-lg my-3">
+                Widely used after meals as a natural digestive aid.
+              </li>
+              <li class="font-semibold md:text-lg my-3">
+                A twin variety exists, but caution is advised as it can be
+                harmful.
+              </li>
+              <li class="font-semibold md:text-lg my-3">
+                Used for centuries in traditional medicine for its beneficial
+                properties.
+              </li>
+            </ul>
+          </div>
+          <div class="md:w-1/2">
+            <img
+              src="assets/images/gingerImg.jpeg"
+              alt="Ginger Image"
+              class="rounded-l-full starAniseImg2 md:float-right md:block hidden"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- what / history / benefit -->
+    <section class="my-12 px-3 lg:px-0">
+      <div class="container mx-auto">
+        <div class="bg-[#FDF4E4] rounded-3xl md:py-20 py-5 md:px-14 px-3">
+          <h2 class="text-2xl md:text-4xl font-bold">
+            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+              >What</span
+            >
+            is Ginger?
+          </h2>
+          <p class="mt-7 mb-14 text-gray-500">
+            Ginger is a globally cherished spice, adored by chefs for its unique
+            spicy and aromatic flavor. Whether enhancing the taste of pasta or
+            enriching the depth of Indian curries, ginger is a culinary
+            essential. Beyond its culinary appeal, ginger has long been
+            recognized for its medicinal properties, aiding in alleviating
+            nausea, improving digestion, and promoting overall well-being.
+          </p>
+          <h2 class="text-2xl md:text-4xl font-bold">
+            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+              >History</span
+            >
+            of Ginger
+          </h2>
+          <p class="mt-7 mb-14 text-gray-500">
+            Ginger boasts a rich history, tracing back to around 100 BC.
+            Introduced to Europe by English merchants, it became a popular
+            ingredient in jams and puddings due to its naturally sweet yet spicy
+            flavor. Native to Southern China and Southeast Asia, ginger requires
+            approximately 15 years to produce seeds for cultivation.
+            Historically, ginger has been revered not only for its flavor but
+            also for its rejuvenating and purifying properties. In folklore,
+            it’s believed to bring good dreams when placed under a pillow.
+          </p>
+          <h2 class="text-2xl md:text-4xl font-bold">
+            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+              >Benefits</span
+            >
+            of Ginger
+          </h2>
+          <p class="mt-7 text-gray-500">
+            Ginger is celebrated for its multitude of health benefits.
+            Originating as a medicinal plant in Chinese culture, it has been
+            used for centuries in both healing and spiritual practices. Let’s
+            delve into the remarkable benefits that ginger offers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- side effects -->
+    <section class="my-20 px-3 lg:px-0">
+      <div class="container mx-auto">
+        <div class="lg:flex">
+          <div class="lg:w-1/2 pe-8">
+            <h1 class="text-3xl md:text-5xl font-bold mb-3">
+              <span class="text-red-500 italic text-2xl md:text-4xl"
+                >Side Effects</span
+              >
+              & Safety of <br />
+              Ginger
+            </h1>
+            <p class="my-8 text-gray-500">
+              Ginger has a few potential side effects. It’s important to consume
+              Ginger cautiously, especially when using it for medicinal
+              purposes. Ginger closely resembles Japanese Ginger, which is
+              highly toxic and can cause serious health issues, including
+              seizures.
+            </p>
+            <p class="text-gray-500">
+              Adulteration or mixing of Ginger with other substances has
+              sometimes been reported, and this can be fatal, especially for
+              infants. Consuming Ginger in unregulated amounts can lead to
+              health complications like low blood pressure or reduced insulin
+              levels, which can be dangerous for individuals with pre-existing
+              conditions. Additionally, some people may experience allergic
+              reactions to Ginger, such as blisters or swelling. Always perform
+              a skin test before applying Ginger topically.
+            </p>
+          </div>
+          <div class="lg:w-1/2 relative md:ms-12 mt-5 md:mt-0">
+            <img
+              src="assets/images/gingerImg.jpeg"
+              alt="Ginger Image"
+              class="rounded-3xl"
+            />
+            <i
+              class="fa-regular fa-circle-play text-5xl md:text-7xl bg-white rounded-full p-3 absolute lg:top-[40%] lg:left-[45%] top-[35%] left-[40%]"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="my-20 px-3 lg:px-0">
+      <div class="container mx-auto">
+        <div class="bg-[#FDF4E4] rounded-3xl md:px-14 md:py-16 py-5 px-3">
+          <h2 class="text-2xl md:text-4xl font-bold">
+            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+              >How to</span
+            >
+            consume Ginger?
+          </h2>
+          <p class="mt-7 mb-7 text-gray-500">
+            Consumption of Ginger is easy for a variety of reasons. Ginger can
+            be consumed as a juice by boiling it in water and then cooling it
+            down. Drinking this mixture can provide a cooling effect for the
+            body. In Indian cuisine, Ginger is widely used as a spice, often
+            crushed and used in its powdered form. It is also commonly used with
+            milk in various recipes.
+          </p>
+          <p class="mb-14 text-gray-500">
+            Ginger is also a key ingredient in the popular "masala chai".
+            Consuming Ginger after meals can help cure indigestion and bloating
+            naturally. It is very soothing for the stomach. Additionally, Ginger
+            tea is known for its calming properties and is said to help improve
+            sleep.
+          </p>
+          <h2 class="text-2xl md:text-4xl font-bold">
+            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+              >Export</span
+            >
+            Details of Ginger
+          </h2>
+          <p class="mt-7 mb-14 text-gray-500">
+            The export of Ginger has experienced both highs and lows over the
+            years. However, with the increasing popularity of home-cooked meals
+            during the pandemic, the export of Ginger from India has seen a
+            slight rise. India shares Ginger production with other countries
+            like China and Vietnam, which are the primary producers. In India,
+            Ginger is mainly produced in the state of Arunachal Pradesh.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="my-20 bg-red-500 py-10 px-3 lg:px-0 bgImg relative">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
+      ></div>
+      <div class="container mx-auto">
+        <div class="md:flex justify-evenly">
+          <div class="text-white text-center z-10">
+            <i class="fa-solid fa-globe text-4xl"></i>
+            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
+              Global Exporter
+            </h2>
+          </div>
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
+            <i class="fa-solid fa-users-line text-4xl"></i>
+            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
+              Customer Relation
+            </h2>
+          </div>
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
+            <i class="fa-solid fa-truck text-4xl"></i>
+            <h2 class="text-xl font-semibold mt-4">Fast Delivery</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="my-12 px-3 lg:px-0">
+      <div class="container mx-auto relative">
+        <div class="md:flex">
+          <div class="w-full md:w-1/2 text-start">
+            <img src="assets/images/logo.png" alt="" width="410px" />
+            <p class="my-6 w-3/4 text-gray-500">
+              "ALPHA MALE EXPORTS” is one of the leading Gujarat india Based
+              company which activating in the field of producing, Supplying and
+              exporting of Basmati Rice, Non Basmati Rice, Brown Rice, Indian
+              Spices, Maize etc agrituture products from the Gujarat India, we
+              are bulk exporters of agriculture product.
+            </p>
+          </div>
+          <div class="w-full md:w-1/2">
+            <div class="md:flex mt-7">
+              <div class="">
+                <i
+                  class="fa-solid fa-phone bg-red-500 rounded-full p-2 text-white me-3"
+                ></i>
+                <span class="font-bold text-xl">Contact</span> <br />
+                <span class="me-10 text-gray-600">+91 8128128181</span>
+              </div>
+              <div class="md:ms-5 mt-5 md:mt-0">
+                <i
+                  class="fa-solid fa-envelope bg-red-500 rounded-full p-2 text-white me-3"
+                ></i>
+                <span class="font-bold text-xl">Email</span> <br />
+                <span class="me-10 text-gray-600"
+                  >alphamaleexports@gmail.com</span
+                >
+              </div>
+            </div>
+            <div class="mt-5 md:mt-9">
+              <i
+                class="fa-solid fa-location-dot bg-red-500 rounded-full p-2 px-3 text-white mt-3 me-3"
+              ></i>
+              <span class="font-bold text-xl">Location</span> <br />
+              <span class="me-10 text-gray-600"
+                >UG-28, Indira Lok Complex Piplod Surat Gujarat PIN:
+                395007</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="border border-gray-300"></div>
+        <div class="md:flex">
+          <div class="md:w-1/2">
+            <h2 class="mt-9 font-bold text-lg">Our Link</h2>
+            <div class="mt-6 font-semibold text-gray-600">
+              <a href="./" class="me-8">Home</a>
+              <a href="/about.html" class="me-8">About Us</a>
+              <a href="/product.html" class="me-8">Product</a>
+              <a href="/blog.html" class="me-8">Blog</a>
+              <a href="/contact.html" class="me-8">Contact Us</a>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <h2 class="mt-9 font-bold text-lg">Product</h2>
+            <div class="mt-6 font-semibold text-gray-600">
+              <a href="" class="me-8">Basmati Rice</a>
+              <a href="" class="me-8">Spices</a>
+              <a href="" class="me-8">Maize</a>
+              <a href="" class="me-8">Non Basmati Rice</a>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/images/svg7 (2).png"
+          alt=""
+          class="absolute -top-20 -right-10"
+        />
+      </div>
+    </footer>
+
+    <section class="bg-[#FDF4E4] px-3 lg:px-0">
+      <div class="container mx-auto">
+        <div class="py-8 text-gray-600 flex justify-between">
+          <p>© Copyright 2022 by Signal Bytes Technologies</p>
+          <div class="">
+            <i
+              class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full me-2"
+            ></i>
+            <i
+              class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full me-2"
+            ></i>
+            <i
+              class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full me-2"
+            ></i>
+            <i
+              class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full me-2 mt-2 md:mt-0"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- Mobile Menu Script -->
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+</html>

@@ -80,7 +80,9 @@
 
     <!-- product -->
     <section class="productImg relative px-3 lg:px-0">
-      <div class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
+      ></div>
       <div class="container mx-auto relative z-10">
         <div class="py-32">
           <h1 class="text-yellow-500 text-4xl italic my-9">Product</h1>
@@ -99,26 +101,44 @@
           <div
             class="shadow-xl flex justify-center items-center border border-red-500 rounded-xl py-8 mb-5 md:mb-0"
           >
-            <img src="assets/images/chilli.png" alt="" class="md:w-[50px] w-[40px]" />
+            <img
+              src="assets/images/chilli.png"
+              alt=""
+              class="md:w-[50px] w-[40px]"
+            />
             <h2 class="text-lg md:text-2xl font-bold md:ms-3">Red Chilli</h2>
           </div>
           <div
             class="shadow-xl flex justify-center items-center rounded-xl py-8 mb-5 md:mb-0"
           >
-            <img src="assets/images/maize.png" alt="" class="md:w-[50px] w-[40px]" />
+            <img
+              src="assets/images/maize.png"
+              alt=""
+              class="md:w-[50px] w-[40px]"
+            />
             <h2 class="text-lg md:text-2xl font-bold ms-1 md:ms-3">Maize</h2>
           </div>
           <div
             class="shadow-xl flex justify-center items-center rounded-xl py-8 mb-5 md:mb-0"
           >
-            <img src="assets/images/spice.png" alt="" class="md:w-[50px] w-[40px]" />
+            <img
+              src="assets/images/spice.png"
+              alt=""
+              class="md:w-[50px] w-[40px]"
+            />
             <h2 class="text-lg md:text-2xl font-bold ms-1 md:ms-3">Spice</h2>
           </div>
           <div
             class="shadow-xl flex justify-center items-center rounded-xl py-8 mb-5 md:mb-0"
           >
-            <img src="assets/images/nonBasmatiImg.png" alt="" class="md:w-[50px] w-[40px] ms-2 md:ms-0" />
-            <h2 class="text-lg md:text-2xl font-bold ms-1 md:ms-3">Non Basmati Rice</h2>
+            <img
+              src="assets/images/nonBasmatiImg.png"
+              alt=""
+              class="md:w-[50px] w-[40px] ms-2 md:ms-0"
+            />
+            <h2 class="text-lg md:text-2xl font-bold ms-1 md:ms-3">
+              Non Basmati Rice
+            </h2>
           </div>
         </div>
       </div>
@@ -126,15 +146,18 @@
 
     <!-- red chilli -->
     <section class="py-6 px-3 lg:px-0">
-      <div class="container mx-auto">
-        <div
-          class="flex flex-col-reverse gap-4 items-center justify-between lg:flex-row"
-        >
-          <div class="lg:w-[707px]">
+      <div class="container mx-auto py-8">
+        <div class="flex justify-between flex-wrap">
+          <div class="lg:w-3/4 w-full">
             <h1 class="text-3xl font-bold">
               <span class="text-red-500 italic">Red</span> Chili
             </h1>
-            <p class="text-gray-600 mt-8 text-lg">
+            <img
+              src="assets/images/Rectangle 49.png"
+              alt=""
+              class="md:hidden block"
+            />
+            <p class="text-gray-600 mt-8 md:text-lg">
               According to a new report, chili pepper in your diet could lower
               your risk of dying of cancer or cardiovascular disease, and could
               also promote longevity. It promotes digestive health: Red chilli
@@ -151,11 +174,11 @@
               <p class="text-[#CA3D26] font-bold ms-3">Query Now</p>
             </div>
           </div>
-          <div class="">
+          <div class="lg:w-1/4 w-full">
             <img
               src="assets/images/Rectangle 49.png"
               alt=""
-              class="lg:h-[362px] lg:w-[594px] rounded-l-full"
+              class="md:block hidden"
             />
           </div>
         </div>
@@ -164,40 +187,61 @@
 
     <!-- online help -->
     <section class="px-3 lg:px-0">
-      <div class="container mx-auto bg-[#FDF4E4] py-8 px-10">
-        <div class="md:flex md:items-center text-center">
-          <img src="assets/images/helpImg.png" alt="" class="inline-block w-[90px] md:w-fit" />
-          <p class="text-2xl md:text-4xl font-bold mt-3 md:mt-0">
-            <span class="text-red-500 text-xl md:text-3xl italic font-medium ms-5"
-              >Online</span
-            >
-            Help
-          </p>
-          <div class="border border-dotted border-black h-full mx-4 my-5"></div>
-          <p class="text-2xl md:text-4xl text-red-500 font-semibold ms-5">+91 8128128181</p>
+      <div class="container mx-auto bg-[#FDF4E4] py-3 px-10 rounded-3xl">
+        <div class="md:flex text-center">
+          <div class="md:w-3/4 md:flex md:items-center w-full">
+            <img
+              src="assets/images/helpImg.png"
+              alt=""
+              class="inline-block w-[90px] md:w-fit"
+            />
+            <p class="text-2xl md:text-4xl font-bold mt-3 md:mt-0">
+              <span
+                class="text-red-500 text-xl md:text-3xl italic font-medium ms-5"
+                >Online</span
+              >
+              Help
+            </p>
+            <div
+              class="border border-dotted border-black h-full mx-4 my-5"
+            ></div>
+            <p class="text-2xl md:text-4xl text-red-500 font-semibold ms-5">
+              +91 8128128181
+            </p>
+          </div>
+          <div class="w-1/4">
+            <img
+              src="assets/images/onlineSvgImg.png"
+              alt=""
+              class="w-[250px] hidden md:block"
+            />
+          </div>
         </div>
       </div>
     </section>
 
     <!--  -->
-    <section class="my-20 bg-red-500 py-10 px-3 lg:px-0">
+    <section class="my-20 bg-red-500 py-10 px-3 lg:px-0 bgImg relative">
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
+      ></div>
       <div class="container mx-auto">
         <div class="md:flex justify-evenly">
-          <div class="text-white text-center">
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-globe text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
               Global Exporter
             </h2>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7"></div>
-          <div class="text-white text-center">
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-users-line text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
               Customer Relation
             </h2>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7"></div>
-          <div class="text-white text-center">
+          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
+          <div class="text-white text-center z-10">
             <i class="fa-solid fa-truck text-4xl"></i>
             <h2 class="text-xl font-semibold mt-4">Fast Delivery</h2>
           </div>
@@ -207,7 +251,7 @@
 
     <!-- Footer -->
     <footer class="my-12 px-3 lg:px-0">
-      <div class="container mx-auto">
+      <div class="container mx-auto relative">
         <div class="md:flex">
           <div class="w-full md:w-1/2 text-start">
             <img src="assets/images/logo.png" alt="" width="410px" />
@@ -272,6 +316,11 @@
             </div>
           </div>
         </div>
+        <img
+          src="assets/images/svg7 (2).png"
+          alt=""
+          class="absolute -top-20 -right-10"
+        />
       </div>
     </footer>
 
