@@ -110,3 +110,13 @@ body {
   border-radius: 100% !important;
   padding: 25px 25px !important;
 }
+
+.bgMainImg{
+  background-image: url(../images/Rectangle\ 11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 760px;
+  height: 600px;
+  /* border-radius: 30% 0px 0px 30%; */
+}
