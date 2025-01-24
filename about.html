@@ -13,9 +13,11 @@
   </head>
   <body>
     <!-- header -->
-    <section>
+    <header class="bg-[#CA3D26]">
       <div class="container mx-auto px-4">
-        <div class="header flex flex-wrap items-center justify-between p-5">
+        <div
+          class="bg-white flex flex-wrap header items-center justify-between p-5 rounded-b-[30px]"
+        >
           <!-- Left Content -->
           <div
             class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
@@ -42,15 +44,34 @@
             <nav
               class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
             >
-              <a href="./" class="hover:text-[#CA3D26]">Home</a>
-              <a href="/about.html" class="hover:text-[#CA3D26] font-semibold"
-                >About Us</a
-              >
+              <a href="./" class="hover:text-[#CA3D26] font-semibold">Home</a>
+              <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
               <a href="/product.html" class="hover:text-[#CA3D26]">Product</a>
               <a href="/blog.html" class="hover:text-[#CA3D26]">Blog</a>
               <a href="/contact.html" class="hover:text-[#CA3D26]"
                 >Contact Us</a
               >
+              <div
+                class="rightContent lg:hidden flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
+              >
+                <span class="lg:block hidden text-sm sm:text-base sm:me-6"
+                  >+918128128181</span
+                >
+                <div class="flex space-x-2">
+                  <i
+                    class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                  ></i>
+                  <i
+                    class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                  ></i>
+                  <i
+                    class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                  ></i>
+                  <i
+                    class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                  ></i>
+                </div>
+              </div>
             </nav>
           </div>
 
@@ -58,8 +79,10 @@
           <div
             class="rightContent flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
           >
-            <span class="text-sm sm:text-base sm:me-6">+918128128181</span>
-            <div class="flex space-x-2">
+            <span class="lg:block hidden text-sm sm:text-base sm:me-6"
+              >+918128128181</span
+            >
+            <div class="lg:flex hidden space-x-2">
               <i
                 class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
               ></i>
@@ -76,7 +99,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
     <!-- about us -->
     <section class="aboutImg relative px-3 lg:px-0">
