@@ -9,120 +9,146 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <!-- RALEWAY FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DANCING SCRIPT FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- header -->
-    <header class="bg-[#CA3D26]">
-      <div class="container mx-auto px-4">
-        <div
-          class="bg-white flex flex-wrap header items-center justify-between p-5 rounded-b-[30px]"
-        >
-          <!-- Left Content -->
+    <div class="blogDetailImg">
+      <!-- header -->
+      <header class="">
+        <div class="container mx-auto px-4">
           <div
-            class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
+            class="bg-white flex flex-wrap header items-center justify-between p-5 rounded-b-[30px]"
           >
-            <img
-              src="assets/images/logo.png"
-              alt="Logo"
-              class="w-[150px] sm:w-[190px] h-auto"
-            />
-            <!-- Hamburger Menu for Mobile -->
-            <button
-              id="menuToggle"
-              class="block sm:hidden text-2xl focus:outline-none"
+            <!-- Left Content -->
+            <div
+              class="leftContent flex items-center w-full sm:w-auto justify-between sm:justify-start"
             >
-              <i class="fa-solid fa-bars"></i>
-            </button>
-          </div>
+              <img
+                src="assets/images/logo.png"
+                alt="Logo"
+                class="w-[146px] md:w-auto"
+              />
+              <!-- Hamburger Menu for Mobile -->
+              <button
+                id="menuToggle"
+                class="block sm:hidden text-2xl focus:outline-none"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
 
-          <!-- Navigation Links -->
-          <div
-            id="mobileMenu"
-            class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
-          >
-            <nav
-              class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
+            <!-- Navigation Links -->
+            <div
+              id="mobileMenu"
+              class="hidden w-full sm:flex sm:w-auto sm:items-center sm:space-x-6 sm:mt-0 mt-4"
             >
-              <a href="./" class="hover:text-[#CA3D26] font-semibold">Home</a>
-              <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
-              <a href="/product.html" class="hover:text-[#CA3D26]">Product</a>
-              <a href="/blog.html" class="hover:text-[#CA3D26]">Blog</a>
-              <a href="/contact.html" class="hover:text-[#CA3D26]"
-                >Contact Us</a
+              <nav
+                class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-lg"
               >
-              <div
-                class="rightContent lg:hidden flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
-              >
-                <span class="lg:block hidden text-sm sm:text-base sm:me-6"
-                  >+918128128181</span
+                <a href="./" class="hover:text-[#CA3D26]">Home</a>
+                <a href="/about.html" class="hover:text-[#CA3D26]">About Us</a>
+                <a href="/product.html" class="hover:text-[#CA3D26]">Product</a>
+                <a href="/blog.html" class="hover:text-[#CA3D26] font-semibold"
+                  >Blog</a
                 >
-                <div class="flex space-x-2">
-                  <i
-                    class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-                  ></i>
-                  <i
-                    class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-                  ></i>
-                  <i
-                    class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-                  ></i>
-                  <i
-                    class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-                  ></i>
+                <a href="/contact.html" class="hover:text-[#CA3D26]"
+                  >Contact Us</a
+                >
+                <div
+                  class="rightContent lg:hidden flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
+                >
+                  <span class="lg:block hidden text-sm sm:text-base sm:me-6"
+                    >+918128128181</span
+                  >
+                  <div class="flex space-x-2">
+                    <i
+                      class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                    ></i>
+                    <i
+                      class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                    ></i>
+                    <i
+                      class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                    ></i>
+                  </div>
                 </div>
-              </div>
-            </nav>
-          </div>
+              </nav>
+            </div>
 
-          <!-- Right Content -->
-          <div
-            class="rightContent flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
-          >
-            <span class="lg:block hidden text-sm sm:text-base sm:me-6"
-              >+918128128181</span
+            <!-- Right Content -->
+            <div
+              class="rightContent flex flex-wrap items-center space-y-4 sm:space-y-0 w-full sm:w-auto sm:mt-0 mt-4 justify-between"
             >
-            <div class="lg:flex hidden space-x-2">
-              <i
-                class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-              ></i>
-              <i
-                class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-              ></i>
-              <i
-                class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-              ></i>
-              <i
-                class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
-              ></i>
+              <span class="lg:block hidden text-sm sm:text-base sm:me-6"
+                >+918128128181</span
+              >
+              <div class="lg:flex hidden space-x-2">
+                <i
+                  class="fa-brands fa-facebook bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                ></i>
+                <i
+                  class="fa-brands fa-twitter bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                ></i>
+                <i
+                  class="fa-brands fa-youtube bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                ></i>
+                <i
+                  class="fa-brands fa-instagram bg-[#CA3D26] p-2 text-white rounded-full hover:bg-red-600"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- blog details -->
-    <section class="blogDetailImg relative px-3 lg:px-0">
-      <div
-        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
-      ></div>
-      <div class="container mx-auto relative z-10">
-        <div class="py-28">
-          <h1 class="text-yellow-500 text-4xl italic my-9">Blog</h1>
-          <span class="text-red-500 text-2xl bg-white p-4">
-            <span class="text-2xl text-black">Blog</span>
-            <span class="text-black text-2xl font-bold"> > </span> Blog Details
-          </span>
+      <!-- blog details -->
+      <section class="px-3 lg:px-0">
+        <div class="container mx-auto">
+          <div class="md:py-28 py-14">
+            <h1
+              class="text-yellow-500 md:text-5xl text-4xl dancing md:my-9 my-5"
+            >
+              Blog
+            </h1>
+            <div class="relative">
+              <img
+                src="assets/images/textBg.png"
+                alt=""
+                class="w-[223px] md:w-auto"
+              />
+              <div class="absolute top-[40%] md:left-[5%] left-[8%]">
+                <h1 class="text-red-500 font-bold md:text-2xl">
+                  <span class="text-black font-medium"
+                    >Blog <i class="fa-solid fa-angle-right"></i
+                  ></span>
+                  Blog Details
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- hero section -->
     <section class="my-12 px-3 lg:px-0">
       <div class="container mx-auto">
         <div class="">
           <h2 class="text-3xl md:text-5xl font-bold">
-            <span class="text-red-500 text-2xl md:text-4xl font-normal italic"
+            <span class="text-red-500 font-normal dancing"
               >Ginger -</span
             >
             Benefits & Details
@@ -157,24 +183,39 @@
         />
         <div class="md:flex">
           <div class="md:w-1/2">
-            <ul class="py-10">
-              <li class="font-semibold md:text-lg my-3">
-                Ginger derives its name from its sharp and distinctive flavor.
-              </li>
-              <li class="font-semibold md:text-lg my-3">
-                It's sourced from the root of an ancient medicinal plant.
-              </li>
-              <li class="font-semibold md:text-lg my-3">
-                Widely used after meals as a natural digestive aid.
-              </li>
-              <li class="font-semibold md:text-lg my-3">
-                A twin variety exists, but caution is advised as it can be
-                harmful.
-              </li>
-              <li class="font-semibold md:text-lg my-3">
-                Used for centuries in traditional medicine for its beneficial
-                properties.
-              </li>
+            <ul class="py-10 ps-3 rounded-2xl shadow-lg">
+              <div class="flex md:mb-2 mb-3">
+                <img src="assets/images/svg8(2).png" alt="" />
+                <li class="font-semibold md:text-lg my-3 ms-2">
+                  Ginger derives its name from its sharp and distinctive flavor.
+                </li>
+              </div>
+              <div class="flex md:mb-2 mb-3">
+                <img src="assets/images/svg8(2).png" alt="" />
+                <li class="font-semibold md:text-lg my-3 ms-2">
+                  It's sourced from the root of an ancient medicinal plant.
+                </li>
+              </div>
+              <div class="flex md:mb-2 mb-4">
+                <img src="assets/images/svg8(2).png" alt="" />
+                <li class="font-semibold md:text-lg md:my-3 ms-2">
+                  Widely used after meals as a natural digestive aid.
+                </li>
+              </div>
+              <div class="flex md:mb-2 mb-4">
+                <img src="assets/images/svg8(2).png" alt="" />
+                <li class="font-semibold md:text-lg md:my-3 ms-2">
+                  A twin variety exists, but caution is advised as it can be
+                  harmful.
+                </li>
+              </div>
+              <div class="flex mb-2">
+                <img src="assets/images/svg8(2).png" alt="" />
+                <li class="font-semibold md:text-lg md:my-3 ms-2">
+                  Used for centuries in traditional medicine for its beneficial
+                  properties.
+                </li>
+              </div>
             </ul>
           </div>
           <div class="md:w-1/2">
@@ -193,7 +234,7 @@
       <div class="container mx-auto">
         <div class="bg-[#FDF4E4] rounded-3xl md:py-20 py-5 md:px-14 px-3">
           <h2 class="text-2xl md:text-4xl font-bold">
-            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+            <span class="text-red-500 font-semibold dancing"
               >What</span
             >
             is Ginger?
@@ -207,7 +248,7 @@
             nausea, improving digestion, and promoting overall well-being.
           </p>
           <h2 class="text-2xl md:text-4xl font-bold">
-            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+            <span class="text-red-500 font-semibold dancing"
               >History</span
             >
             of Ginger
@@ -223,7 +264,7 @@
             it’s believed to bring good dreams when placed under a pillow.
           </p>
           <h2 class="text-2xl md:text-4xl font-bold">
-            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+            <span class="text-red-500 font-semibold dancing"
               >Benefits</span
             >
             of Ginger
@@ -244,7 +285,7 @@
         <div class="lg:flex">
           <div class="lg:w-1/2 pe-8">
             <h1 class="text-3xl md:text-5xl font-bold mb-3">
-              <span class="text-red-500 italic text-2xl md:text-4xl"
+              <span class="text-red-500 dancing"
                 >Side Effects</span
               >
               & Safety of <br />
@@ -287,7 +328,7 @@
       <div class="container mx-auto">
         <div class="bg-[#FDF4E4] rounded-3xl md:px-14 md:py-16 py-5 px-3">
           <h2 class="text-2xl md:text-4xl font-bold">
-            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+            <span class="text-red-500 font-semibold dancing"
               >How to</span
             >
             consume Ginger?
@@ -308,7 +349,7 @@
             sleep.
           </p>
           <h2 class="text-2xl md:text-4xl font-bold">
-            <span class="text-red-500 text-xl md:text-3xl font-semibold italic"
+            <span class="text-red-500 font-semibold dancing"
               >Export</span
             >
             Details of Ginger
@@ -327,28 +368,33 @@
 
     <!--  -->
     <section class="my-20 bg-red-500 py-10 px-3 lg:px-0 bgImg relative">
-      <div
-        class="absolute inset-0 bg-gradient-to-r from-red-700/90 to-red-300/20"
-      ></div>
       <div class="container mx-auto">
-        <div class="md:flex justify-evenly">
-          <div class="text-white text-center z-10">
-            <i class="fa-solid fa-globe text-4xl"></i>
-            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
-              Global Exporter
-            </h2>
+        <div class="flex flex-wrap">
+          <div class="md:w-1/3 w-1/2">
+            <div
+              class="text-white text-center z-10 border-r-[1px] border-dotted border-white"
+            >
+              <i class="fa-solid fa-globe md:text-4xl text-3xl"></i>
+              <h2 class="md:text-xl font-semibold md:mt-4 mt-2 md:mb-0 mb-7">
+                Global Exporter
+              </h2>
+            </div>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
-          <div class="text-white text-center z-10">
-            <i class="fa-solid fa-users-line text-4xl"></i>
-            <h2 class="text-xl font-semibold mt-4 md:mb-0 mb-7">
-              Customer Relation
-            </h2>
+          <div class="md:w-1/3 w-1/2">
+            <div
+              class="text-white text-center z-10 md:border-r-[1px] md:border-white border-dotted"
+            >
+              <i class="fa-solid fa-users-line  md:text-4xl text-3xl"></i>
+              <h2 class="md:text-xl font-semibold md:mt-4 mt-2 md:mb-0 mb-7">
+                Customer Relation
+              </h2>
+            </div>
           </div>
-          <div class="border border-dotted md:mb-0 mb-7 z-10"></div>
-          <div class="text-white text-center z-10">
-            <i class="fa-solid fa-truck text-4xl"></i>
-            <h2 class="text-xl font-semibold mt-4">Fast Delivery</h2>
+          <div class="md:w-1/3 w-full">
+            <div class="text-white text-center z-10">
+              <i class="fa-solid fa-truck md:text-4xl text-3xl"></i>
+              <h2 class="md:text-xl font-semibold md:mt-4 mt-2">Fast Delivery</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -358,9 +404,13 @@
     <footer class="my-12 px-3 lg:px-0">
       <div class="container mx-auto relative">
         <div class="md:flex">
-          <div class="w-full md:w-1/2 text-start">
-            <img src="assets/images/logo.png" alt="" width="410px" />
-            <p class="my-6 w-3/4 text-gray-500">
+          <div class="w-full md:w-1/2">
+            <img
+              src="assets/images/logo2.png"
+              alt=""
+              class="w-[199px] md:w-auto"
+            />
+            <p class="my-6 text-gray-500 md:text-[18px]">
               "ALPHA MALE EXPORTS” is one of the leading Gujarat india Based
               company which activating in the field of producing, Supplying and
               exporting of Basmati Rice, Non Basmati Rice, Brown Rice, Indian
@@ -368,34 +418,34 @@
               are bulk exporters of agriculture product.
             </p>
           </div>
-          <div class="w-full md:w-1/2">
-            <div class="md:flex mt-7">
-              <div class="">
+          <div class="w-full md:w-1/2">  
+            <div class="flex md:justify-end flex-wrap mt-7">
+              <div class="me-[35px] mb-8 md:mb-0">
                 <i
-                  class="fa-solid fa-phone bg-red-500 rounded-full p-2 text-white me-3"
+                  class="fa-solid fa-phone bg-red-500 rounded-full p-2 text-white me-3 mb-3"
                 ></i>
                 <span class="font-bold text-xl">Contact</span> <br />
                 <span class="me-10 text-gray-600">+91 8128128181</span>
               </div>
-              <div class="md:ms-5 mt-5 md:mt-0">
+              <div class="me-[35px]">
                 <i
-                  class="fa-solid fa-envelope bg-red-500 rounded-full p-2 text-white me-3"
+                  class="fa-solid fa-envelope bg-red-500 rounded-full p-2 text-white me-3 mb-3"
                 ></i>
                 <span class="font-bold text-xl">Email</span> <br />
                 <span class="me-10 text-gray-600"
                   >alphamaleexports@gmail.com</span
                 >
               </div>
-            </div>
-            <div class="mt-5 md:mt-9">
-              <i
-                class="fa-solid fa-location-dot bg-red-500 rounded-full p-2 px-3 text-white mt-3 me-3"
-              ></i>
-              <span class="font-bold text-xl">Location</span> <br />
-              <span class="me-10 text-gray-600"
-                >UG-28, Indira Lok Complex Piplod Surat Gujarat PIN:
-                395007</span
-              >
+              <div class="mt-5 md:mt-9">
+                <i
+                  class="fa-solid fa-location-dot bg-red-500 rounded-full p-2 px-3 text-white my-3 me-3"
+                ></i>
+                <span class="font-bold text-xl">Location</span> <br />
+                <span class="me-10 text-gray-600"
+                  >UG-28, Indira Lok Complex Piplod Surat Gujarat PIN:
+                 395007</span
+                >
+              </div>
             </div>
           </div>
         </div>

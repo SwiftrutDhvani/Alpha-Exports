@@ -9,6 +9,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: "Raleway", serif;
+}
+.raleway {
+  font-family: "Raleway", serif;
+}
+.dancing {
+  font-family: "Dancing Script", serif !important;
 }
 
 @font-face {
@@ -36,19 +43,72 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  z-index: 11;
+}
+.aboutImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
 }
 .productImg {
   background-image: url(../images/productPageImg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  z-index: 11;
 }
+.productImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
+}
+
 .blogImg {
   background-image: url(../images/blogImg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  z-index: 11;
 }
+.blogImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
+}
+
 .starAniseImg {
   width: 610px;
   height: 340px;
@@ -67,13 +127,49 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  position: relative;
+  z-index: 11;
 }
+.contactUsImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
+}
+
 .blogDetailImg {
   background-image: url(../images/blogDetailImg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  z-index: 11;
 }
+.blogDetailImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
+}
+
 .starAniseImg2 {
   width: 450px;
   height: 320px;
@@ -94,16 +190,33 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 11;
+}
+.bgImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: rgb(202, 61, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 61, 38, 1) 0%,
+    rgba(202, 61, 32, 0) 100%
+  );
 }
 
-.swiper-button-next{
+.swiper-button-next {
   right: 100px !important;
   background-color: white !important;
   color: brown !important;
   border-radius: 100% !important;
   padding: 25px 25px !important;
 }
-.swiper-button-prev{
+.swiper-button-prev {
   left: 100px !important;
   background-color: white !important;
   color: brown !important;
@@ -111,7 +224,7 @@ body {
   padding: 25px 25px !important;
 }
 
-.bgMainImg{
+.bgMainImg {
   background-image: url(../images/Rectangle\ 11.png);
   background-position: center;
   background-repeat: no-repeat;
